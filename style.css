@@ -1,0 +1,301 @@
+*{padding: 0; margin: 0; box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-image: url(images/bkg\ \(2\).jpg);
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.accordion-button
+{
+font-family: cursive;
+}
+.accordion-body
+{
+    font-family: cursive;
+    background-color: rgb(224, 188, 157);
+}
+.accordion
+{
+    font-family: cursive;
+    background-color: rgb(151, 243, 143);
+}
+.accord
+{
+    font-family: cursive;
+    background-color: rgb(255, 199, 250);
+}
+
+p{
+    font-size: 1em;
+}
+.carousel-item{
+    width: 100vh;
+    height: 80vh;
+}
+.card-body img{
+         min-width: 10px;
+         max-height: 200px;
+}
+.drum img
+{
+    min-width: 10px;
+    max-height: 200px;
+}
+.drum
+{
+    background-color: transparent;
+}
+.card
+{
+    mix-blend-mode:multiply;
+}
+
+
+a
+{
+font-size: 3vh;
+    font-family:cursive;
+}
+.row
+{
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 2vh;
+}
+
+
+
+#check
+{
+    display: none;
+}
+.content
+{
+    display:none ;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    margin: 15px;
+     text-decoration: underline;
+     cursor: pointer;
+     font-weight: 600;
+}
+#check:checked ~ .content
+{
+    display: block;
+}
+#check:checked ~ label
+{
+    visibility: hidden;
+}
+#check:checked ~ label:after
+{
+    content: 'show less';
+    display: block;
+    visibility: visible;
+}
+
+
+
+
+#he
+{
+    display: none;
+}
+.content
+{
+    display:none ;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    margin: 15px;
+     text-decoration: underline;
+     cursor: pointer;
+     font-weight: 600;
+}
+#he:checked ~ .content
+{
+    display: block;
+}
+#he:checked ~ label
+{
+    visibility: hidden;
+}
+#he:checked ~ label:after
+{
+    content: 'show less';
+    display: block;
+    visibility: visible;
+}
+
+
+#chec
+{
+    display: none;
+}
+.content
+{
+    display:none ;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    margin: 15px;
+     text-decoration: underline;
+     cursor: pointer;
+     font-weight: 600;
+}
+#chec:checked ~ .content
+{
+    display: block;
+}
+#chec:checked ~ label
+{
+    visibility: hidden;
+}
+#chec:checked ~ label:after
+{
+    content: 'show less';
+    display: block;
+    visibility: visible;
+}
+
+
+
+
+#ch
+{
+    display: none;
+}
+.content
+{
+    display:none ;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    margin: 15px;
+     text-decoration: underline;
+     cursor: pointer;
+     font-weight: 600;
+}
+#ch:checked ~ .content
+{
+    display: block;
+}
+#ch:checked ~ label
+{
+    visibility: hidden;
+}
+#ch:checked ~ label:after
+{
+    content: 'show less';
+    display: block;
+    visibility: visible;
+}
+
+#eck
+{
+    display: none;
+}
+.content
+{
+    display:none ;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    margin: 15px;
+     text-decoration: underline;
+     cursor: pointer;
+     font-weight: 600;
+}
+#eck:checked ~ .content
+{
+    display: block;
+}
+#eck:checked ~ label
+{
+    visibility: hidden;
+}
+#eck:checked ~ label:after
+{
+    content: 'show less';
+    display: block;
+    visibility: visible;
+}
+
+
+#chk
+{
+    display: none;
+}
+.content
+{
+    display:none ;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    margin: 15px;
+     text-decoration: underline;
+     cursor: pointer;
+     font-weight: 600;
+     color: rgb(236, 11, 11);
+}
+#chk:checked ~ .content
+{
+    display: block;
+}
+#chk:checked ~ label
+{
+    visibility: hidden;
+}
+#chk:checked ~ label:after
+{
+    content: 'show less';
+    display: block;
+    visibility: visible;
+}
+
+.ab
+{
+ background-image: url(images/smile\ \(1\).jpg);
+ 
+}
+
+
+.cd
+{
+    background-image: url(images/smile\ \(2\).jpg);
+}
+.ef
+{
+    background-image: url(images/smile7.jpg);
+}
+.gh
+{
+    background-image: url(images/smile\ \(4\).jpg);
+}
+.ij
+{
+    background-image: url(images/smile\ \(5\).jpg);
+}
+.kl
+{
+    background-image: url(images/smile\ \(6\).jpg);
+}
+
+footer
+{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    line-height: 0px;
+}
+
+
